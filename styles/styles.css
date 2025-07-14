@@ -13,7 +13,7 @@ body {
 .container-1 {
     width: 1150px;
     height: 650px;
-    padding-top: 128px;
+    padding-top: 128px; /* временно сделал так */
     margin-left: 125px;
     margin-bottom: 150px;
 }
