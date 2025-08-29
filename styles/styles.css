@@ -114,7 +114,6 @@ section:nth-last-child(2) {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    
 }
 
 .container-black {
@@ -370,6 +369,7 @@ footer {
     opacity: 0.5;
     text-align: center;
 }
+
 
 
 
