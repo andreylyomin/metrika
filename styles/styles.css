@@ -59,6 +59,10 @@ nav {
     text-decoration: none;
 }
 
+.nav__link:nth-last-child(1) {
+    margin-left: 58px;
+}
+
 .nav__link:hover,
 .nav__link:active {
    opacity: 50%;
@@ -114,6 +118,7 @@ section:nth-last-child(2) {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+    
 }
 
 .container-black {
@@ -163,12 +168,13 @@ section:nth-last-child(2) {
 
 .description {
     margin-top: 30px;
+    padding-left: 3px;
     width: 1048px;
     font-size: 45px;
     line-height: 61.5px;
     letter-spacing: -0.03em;
     color: #121212;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
 }
 
 .btn {
@@ -177,6 +183,7 @@ section:nth-last-child(2) {
     height: 67px;
     text-align: center;
     line-height: 67px;
+    letter-spacing: -0.03em;
     text-decoration: none;
     color: white;
     background-color: #AD1818;
@@ -195,12 +202,12 @@ section:nth-last-child(2) {
 }
 
 .project__image {
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     width: 1150px;
 }
 
 .project__title {
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 
 .project__link {
@@ -211,6 +218,7 @@ section:nth-last-child(2) {
     line-height: 100%;
     letter-spacing: -0.03em;
     color: #AD1818;
+    text-decoration: none;
 }
 
 .projects__link-all {
@@ -236,18 +244,20 @@ section:nth-last-child(2) {
 
 .services {
     margin: auto;
-    margin-top: 34px;
+    margin-left: -6px;
+    margin-top: 35px;
     width: 1150px;
 }
 
 .service {
     margin-bottom: 60px;
+    padding-left: 9px;
     width: 1150px;
     height: 326px;
 }
 
 .service__image {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     width: 1150px;
 }
 
@@ -265,11 +275,11 @@ section:nth-last-child(2) {
 
 .contacts__main {
     margin-top: 12px;
-    width: 473px;
     height: 217px;
 }
 
 .contacts:before {
+    margin-left: -5px;
     content: ' ';
     display: block;
     width: 24px;
@@ -282,6 +292,7 @@ section:nth-last-child(2) {
 
 .contacts__item {
     margin-top: 32px;
+    letter-spacing: -0.03em;
 }
 
 .contacts__item:nth-last-child(1) {
@@ -292,7 +303,6 @@ section:nth-last-child(2) {
     font-size: 60px;
     font-weight: 400;
     line-height: 60px;
-    letter-spacing: -0.03em;
     text-decoration: none;
     color: #121212;
 }
@@ -304,12 +314,8 @@ section:nth-last-child(2) {
     letter-spacing: -0.03em;
     text-decoration: none;
     color: #121212;
+    border-bottom: 2px solid #121212;
     opacity: 50%;
-}
-
-.contacts__email:hover {
-    text-decoration: underline;
-    text-underline-offset: 10px;
 }
 
 footer {
@@ -361,7 +367,7 @@ footer {
 }
 
 .footer-text {
-    margin-top: 87px;
+    margin-top: 89px;
     font-size: 20px;
     line-height: 20px;
     letter-spacing: -0.03em;
@@ -369,6 +375,7 @@ footer {
     opacity: 0.5;
     text-align: center;
 }
+
 
 
 
