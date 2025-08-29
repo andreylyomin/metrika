@@ -145,7 +145,7 @@ section:nth-last-child(2) {
     position: relative;
     width: 1150px;
     height: 500px;
-    background-image: url(..resources/chair.png);
+    background-image: url(../resources/chair.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -370,5 +370,6 @@ footer {
     opacity: 0.5;
     text-align: center;
 }
+
 
 
